@@ -106,7 +106,7 @@ mkdir-init:
 
 CC = @CC@
 CXX = @CXX@
-LIBTOOL = @LIBTOOL@
+LIBTOOL = @LIBTOOL@ --tag=CC
 
 INCLUDES = -I$(srcdir)/lib -I.
 LDFLAGS = @LDFLAGS@
